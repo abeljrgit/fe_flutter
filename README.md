@@ -1,16 +1,67 @@
-# fe_flutter
+# Front-end Boilerplate
 
-A new Flutter project.
+Front-end boiler plate using Flutter framework.
 
-## Getting Started
+## Run Locally
 
-This project is a starting point for a Flutter application.
+Download the repository
 
-A few resources to get you started if this is your first Flutter project:
+Go to the project directory
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Install dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  flutter pub get
+```
+
+Start the development server(HTML Renderer):
+
+```bash
+  flutter run -d chrome --web-renderer html
+```
+
+Build your work(HTML Renderer)
+
+```bash
+  flutter build web --release --pwa-strategy=none --web-renderer html
+```
+
+## Folder Structure
+
+Folder name is self explanatory
+
+    src
+    ├── fonts
+    ├── images
+    ├── lib
+    │   ├── models
+    │   ├── providers
+    │   ├── screens
+    │   ├── utilities
+    │   ├── widgets
+    │   └── main.dart
+    ├── test
+    │   └── widget_test.dart
+    ├── web
+    │   ├── icons
+    │   ├── favicon.png
+    │   ├── index.html
+    │   └── manifest.json
+    ├── .gitignore
+    ├── .metadata
+    ├── analysis_options.yaml
+    ├── pubspec.lock
+    ├── pubspec.yaml
+    └── README.md
+
+## Documentation
+
+[Flutter](https://reactjs.org/docs/getting-started.html)  
+[Flutter Svg](https://pub.dev/documentation/flutter_svg/latest/)  
+[Provider](https://pub.dev/documentation/provider/latest/)  
+[Url Launcher](https://pub.dev/documentation/url_launcher/latest/)  
+[Flutter Staggered Grid View](https://pub.dev/documentation/flutter_staggered_grid_view/latest/)
+
+## Authors
+
+- [@abeljrgit](https://github.com/abeljrgit)
