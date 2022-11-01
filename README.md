@@ -23,7 +23,7 @@ Start the development server(HTML Renderer):
 Build your work(HTML Renderer)
 
 ```bash
-  flutter build web --release --pwa-strategy=none --web-renderer html
+  flutter build web --web-renderer html
 ```
 
 ## Folder Structure
@@ -34,10 +34,10 @@ Folder name is self explanatory
     ├── fonts
     ├── images
     ├── lib
+    │   ├── api
     │   ├── models
     │   ├── providers
     │   ├── screens
-    │   ├── utilities
     │   ├── widgets
     │   └── main.dart
     ├── test
@@ -59,8 +59,12 @@ Folder name is self explanatory
 [Flutter](https://reactjs.org/docs/getting-started.html)  
 [Flutter Svg](https://pub.dev/documentation/flutter_svg/latest/)  
 [Provider](https://pub.dev/documentation/provider/latest/)  
-[Url Launcher](https://pub.dev/documentation/url_launcher/latest/)  
-[Flutter Staggered Grid View](https://pub.dev/documentation/flutter_staggered_grid_view/latest/)
+[Flutter Staggered Grid View](https://pub.dev/documentation/flutter_staggered_grid_view/latest/)  
+[Dio](https://pub.dev/documentation/dio/latest/)  
+[Email Validator](https://pub.dev/documentation/email_validator/latest/)  
+[Go Router](https://pub.dev/documentation/go_router/latest/)  
+[Google Sign In](https://pub.dev/documentation/google_sign_in/latest/)  
+[Flutter Facebook Auth](https://pub.dev/documentation/flutter_facebook_auth/latest/)
 
 ## Authors
 
