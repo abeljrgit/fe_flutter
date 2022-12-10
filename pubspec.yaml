@@ -44,6 +44,11 @@ dependencies:
   go_router: ^5.1.1
   google_sign_in: ^5.4.2
   flutter_facebook_auth: ^5.0.1
+  url_launcher: ^6.1.7
+  carousel_slider: ^4.2.0
+  flutter_dotenv: ^5.0.2
+  dropdown_button2: ^1.9.2
+  url_strategy: ^0.2.0
 
 dev_dependencies:
   flutter_test:
