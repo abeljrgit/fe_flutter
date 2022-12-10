@@ -56,15 +56,20 @@ Folder name is self explanatory
 
 ## Documentation
 
-[Flutter](https://reactjs.org/docs/getting-started.html)  
-[Flutter Svg](https://pub.dev/documentation/flutter_svg/latest/)  
-[Provider](https://pub.dev/documentation/provider/latest/)  
-[Flutter Staggered Grid View](https://pub.dev/documentation/flutter_staggered_grid_view/latest/)  
-[Dio](https://pub.dev/documentation/dio/latest/)  
-[Email Validator](https://pub.dev/documentation/email_validator/latest/)  
-[Go Router](https://pub.dev/documentation/go_router/latest/)  
-[Google Sign In](https://pub.dev/documentation/google_sign_in/latest/)  
-[Flutter Facebook Auth](https://pub.dev/documentation/flutter_facebook_auth/latest/)
+[Flutter](https://reactjs.org/docs/getting-started.html) - sdk  
+[Flutter Svg](https://pub.dev/documentation/flutter_svg/latest/) - Package for using svg images  
+[Provider](https://pub.dev/documentation/provider/latest/) - State management package  
+[Flutter Staggered Grid View](https://pub.dev/documentation/flutter_staggered_grid_view/latest/) - Package used for grid system  
+[Dio](https://pub.dev/documentation/dio/latest/) - Package for http request  
+[Email Validator](https://pub.dev/documentation/email_validator/latest/) - Package for validating email  
+[Go Router](https://pub.dev/documentation/go_router/latest/) - Package for routing  
+[Google Sign In](https://pub.dev/documentation/google_sign_in/latest/) - Package for google sign in  
+[Flutter Facebook Auth](https://pub.dev/documentation/flutter_facebook_auth/latest/) - Package for Facebook sign in  
+[Url Launcher](https://pub.dev/documentation/url_launcher/latest/) - Package for launching url links  
+[Carousel Slider](https://pub.dev/documentation/carousel_slider/latest/) - Package used in single product gallery  
+[Flutter dotenv](https://pub.dev/documentation/flutter_dotenv/latest/) - Package used in reading .env file  
+[Dropdown 2](https://pub.dev/packages/dropdown_button2) - Package for customized dropdown  
+[Url Strategy](https://pub.dev/documentation/url_strategy/latest/) - Used to remove /#/ in url
 
 ## Authors
 
