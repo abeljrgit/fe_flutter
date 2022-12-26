@@ -35,7 +35,9 @@ Folder name is self explanatory
     ├── images
     ├── lib
     │   ├── data
+    │   │   └── api
     │   ├── domain
+    │   │   └── model
     │   ├── presentation
     │   │   ├── components
     │   │   ├── resources
