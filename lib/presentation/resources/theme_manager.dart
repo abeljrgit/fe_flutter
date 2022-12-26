@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:fe_flutter/presentation/resources/color_manager.dart';
 import 'package:fe_flutter/presentation/resources/font_manager.dart';
-import 'package:fe_flutter/presentation/resources/style_manager.dart';
 import 'package:fe_flutter/presentation/resources/values_manager.dart';
 
 ThemeData getApplicationTheme() {
@@ -42,26 +41,63 @@ ThemeData getApplicationTheme() {
 
     // Text theme
     textTheme: TextTheme(
-      headline1: getSemiBoldStyle(
-          color: ColorManager.darkGrey, fontSize: FontSize.fs16),
-      headline2:
-          getRegularStyle(color: ColorManager.white, fontSize: FontSize.fs16),
-      headline3:
-          getBoldStyle(color: ColorManager.primary, fontSize: FontSize.fs16),
-      headline4:
-          getRegularStyle(color: ColorManager.primary, fontSize: FontSize.fs16),
+      headline1: getLightStyle(
+        fontSize: FontSize.fs48,
+        lineHeight: 2.0,
+        color: ColorManager.primary,
+      ),
+      headline2: getRegularStyle(
+        fontSize: FontSize.fs36,
+        lineHeight: 2.0,
+        color: ColorManager.primary,
+      ),
+      headline3: getMediumStyle(
+        fontSize: FontSize.fs32,
+        lineHeight: 2.0,
+        color: ColorManager.primary,
+      ),
+      headline4: getSemiBoldStyle(
+        fontSize: FontSize.fs24,
+        lineHeight: 1.75,
+        color: ColorManager.primary,
+      ),
+      headline5: getBoldStyle(
+        fontSize: FontSize.fs20,
+        lineHeight: 1.75,
+        color: ColorManager.primary,
+      ),
+      headline6: getBoldStyle(
+        fontSize: FontSize.fs16,
+        lineHeight: 1.75,
+        color: ColorManager.primary,
+      ),
       subtitle1: getMediumStyle(
-          color: ColorManager.lightGrey, fontSize: FontSize.fs16),
-      subtitle2:
-          getMediumStyle(color: ColorManager.primary, fontSize: FontSize.fs16),
-      bodyText2: getMediumStyle(color: ColorManager.lightGrey),
-      caption: getRegularStyle(color: ColorManager.grey1),
-      bodyText1: getRegularStyle(color: ColorManager.grey),
+        color: ColorManager.lightGrey,
+        fontSize: FontSize.fs16,
+      ),
+      subtitle2: getMediumStyle(
+        color: ColorManager.primary,
+        fontSize: FontSize.fs16,
+      ),
+      bodyText1: getRegularStyle(
+        fontSize: FontSize.fs16,
+        lineHeight: 1.75,
+        color: ColorManager.primary,
+      ),
+      bodyText2: getLightStyle(
+        fontSize: FontSize.fs16,
+        lineHeight: 1.75,
+        color: ColorManager.primary,
+      ),
+      caption: getRegularStyle(
+        fontSize: FontSize.fs12,
+        color: ColorManager.primary,
+      ),
     ),
 
     // input decoration theme (text form field)
     inputDecorationTheme: InputDecorationTheme(
-      contentPadding: EdgeInsets.all(AppPadding.p8),
+      contentPadding: const EdgeInsets.all(AppPadding.p8),
       // hint style
       hintStyle: getRegularStyle(color: ColorManager.grey1),
 
