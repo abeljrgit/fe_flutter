@@ -3,15 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:fe_flutter/presentation/resources/theme_manager.dart';
 
 class MyApp extends StatefulWidget {
-  MyApp._internal(); // private named constructor
-
-  int appState = 0;
+  const MyApp._internal(); // private named constructor
 
   // The Singleton pattern is a pattern used in
   // object-oriented programming which ensures
   // that a class has only one instance and also
   // provides a global point of access to it.
-  static final MyApp instance = MyApp._internal();
+  static const MyApp instance = MyApp._internal();
 
   // Factory for the class instance
   factory MyApp() => instance;
