@@ -34,12 +34,12 @@ Folder name is self explanatory
     ├── fonts
     ├── images
     ├── lib
-    │   ├── app
-    │   │   └── app.dart
     │   ├── data
     │   ├── domain
     │   ├── presentation
-    │   │   └── resources
+    │   │   ├── components
+    │   │   ├── resources
+    │   │   └── screen
     │   └── main.dart
     ├── test
     │   └── widget_test.dart
