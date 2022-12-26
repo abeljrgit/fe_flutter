@@ -4,8 +4,8 @@ import 'package:fe_flutter/presentation/resources/color_manager.dart';
 import 'package:fe_flutter/presentation/resources/font_manager.dart';
 import 'package:fe_flutter/presentation/resources/values_manager.dart';
 
-ThemeData getApplicationTheme() {
-  return ThemeData(
+class ThemeManager {
+  static ThemeData themeData = ThemeData(
     // main colors of the app
     primaryColor: ColorManager.primary,
     primaryColorLight: ColorManager.primaryOpacity70,

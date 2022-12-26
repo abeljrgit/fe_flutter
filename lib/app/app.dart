@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      theme: getApplicationTheme(),
+      theme: ThemeManager.themeData,
       routerConfig: RouteManager.router,
     );
   }
